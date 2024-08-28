@@ -4,7 +4,8 @@
         <style>
             body {
                 display: flex;
-                user-select: none
+                user-select: none;
+                background: rgb(80, 255, 255);
             }
             #counter {
                 margin: auto;
@@ -24,6 +25,7 @@
     <body>
         <div id="counter">0</div>
         <script type="module">
+
 //------------------------------------------------------------------------------------------
 // Define our model. MyModel has a tick method that executes once per second. It updates the value
 // of a counter and publishes the value with an event. It also listens for reset events from the view.
